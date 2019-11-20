@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "583074736988",
+    "firebase_url": "https://eatery-demo.firebaseio.com",
+    "project_id": "eatery-demo",
+    "storage_bucket": "eatery-demo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:583074736988:android:68cb9db0b57bef1b39af99",
+        "android_client_info": {
+          "package_name": "com.eatery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "583074736988-29s5bkqa9ue5ie4ecer89b7lhnejlfvr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArKJ-7DvS_1FaxF0t7c0iXR5NBIt92I1Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "583074736988-29s5bkqa9ue5ie4ecer89b7lhnejlfvr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
