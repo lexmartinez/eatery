@@ -40,8 +40,8 @@ const Eatery = () => {
                       <Scene key={'search'} component={Search} hideNavBar={true}/>
                       <Scene key={'results'} component={Dummie} hideNavBar={true} title="Results"/>
                     </Stack>
-                    <Scene key={'favorites'} component={Dummie} hideNavBar={true} title={I18n.t('favs.favs')}
-                      icon={(props: any)=>(<TabBarIcon {...props} name={'heart'}/>)}/>
+                    {/*<Scene key={'favorites'} component={Dummie} hideNavBar={true} title={I18n.t('favs.favs')}
+                      icon={(props: any)=>(<TabBarIcon {...props} name={'heart'}/>)}/>*/}
                     <Scene key={'profile'} component={Profile} hideNavBar={true} title={I18n.t('profile.profile')}
                       icon={(props: any)=>(<TabBarIcon {...props} name={'user'}/>)}/>
                   </Tabs>
