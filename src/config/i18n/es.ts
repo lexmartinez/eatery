@@ -1,6 +1,8 @@
 export default {
     home: {
-      home: 'Inicio'
+      home: 'Inicio',
+      search: 'Donde te encuentras?',
+      nearby: 'Usar mi ubicación'
     },
     favs: {
       favs: 'Favoritos'

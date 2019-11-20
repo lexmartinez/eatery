@@ -9,11 +9,9 @@ export default StyleSheet.create(getResponsiveStyle({
         backgroundColor: Colors.primary_white,
         elevation: 10,
         shadowOffset: { width: 0, height: -1 },
-        shadowColor: Colors.soft_grey,
-        shadowOpacity: 0.85,
+        shadowColor: Colors.secondary_grey,
+        shadowOpacity: 0.4,
         shadowRadius: 3,
-        borderTopRightRadius: 24,
-        borderTopLeftRadius: 24,
         borderTopWidth: 0
     },
     tabLabel: {

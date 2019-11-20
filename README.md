@@ -1,4 +1,4 @@
-# eatery
+# Eatery
 
 :ramen: Eatery: A demo react-native App exercise [Cities Restaurant Directory]
 

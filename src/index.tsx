@@ -15,9 +15,8 @@ import {
 import thunkMiddleware from 'redux-thunk';
 import reducers from './reducers';
 import Dummie from './components/dummie'
-import Dummie2 from './components/dummie2'
 import { LocationModal, ErrorModal, DemoModal } from './components/Modal';
-import { Profile, Login, Register } from './screens';
+import { Profile, Login, Register, Search } from './screens';
 import TabBarIcon from './components/TabBarIcon';
 import styles from './style';
 import { checkPermission } from './config/Utilities';
@@ -38,7 +37,7 @@ const Eatery = () => {
                     activeTintColor={Colors.primary_green} inactiveTintColor={Colors.secondary_green}>
                     <Stack key={'home'} hideNavBar={true} title={I18n.t('home.home')}
                       icon={(props: any)=>(<TabBarIcon {...props} name={'home'}/>)}>
-                      <Scene key={'search'} component={Dummie2} hideNavBar={true} title="Search"/>
+                      <Scene key={'search'} component={Search} hideNavBar={true}/>
                       <Scene key={'results'} component={Dummie} hideNavBar={true} title="Results"/>
                     </Stack>
                     <Scene key={'favorites'} component={Dummie} hideNavBar={true} title={I18n.t('favs.favs')}

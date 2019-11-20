@@ -1,6 +1,8 @@
 export default {
   home: {
-    home: 'Home'
+    home: 'Home',
+    search: 'Where are you?',
+    nearby: 'Search Nearby'
   },
   favs: {
     favs: 'Favorites'

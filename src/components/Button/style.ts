@@ -2,7 +2,7 @@ import { StyleSheet } from 'react-native';
 import { Colors, Fonts } from '../../config/Constant';
 import { getResponsiveStyle, Platform } from '../../config/Utilities';
 
-const buttonHeight = Platform.select({ ios: 50, android: 60 })
+const buttonHeight = Platform.select({ ios: 50, android: 60 });
 const container = {
     backgroundColor: Colors.primary_green,
     height: buttonHeight,

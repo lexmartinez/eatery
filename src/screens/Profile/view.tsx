@@ -1,5 +1,5 @@
 import React from 'react';
-import { ScrollView, View, Text, Image, TouchableOpacity } from 'react-native';
+import { ScrollView, View, Text, Image, TouchableOpacity, StatusBar } from 'react-native';
 import { Code } from 'react-content-loader/native';
 import { Actions } from 'react-native-router-flux';
 import I18n from '../../config/i18n';
