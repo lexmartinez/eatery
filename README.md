@@ -27,7 +27,7 @@ $ yarn ios|start
 ## Preview
 
 
-> Disclaimer: About profile data, currently this project uses a random generator data api to mock profile info: `https://randomuser.me/api`, that's why even you register/login user with some data, it shows a different one
+> Disclaimer: About profile data, currently this project uses a random generator data api to mock profile info: `https://randomuser.me/api`, that's why even you register/login user with some data, it shows a different data
 
 ## License
 
