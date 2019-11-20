@@ -23,13 +23,7 @@ export default class Results extends React.Component<ResultsProps> {
         const { loading, results } = { ...this.props };
         return !loading ? (
             <ScrollView style={styles.main} showsVerticalScrollIndicator={false}>
-                { (results || []).map((restaurant) => {
-                    const { name = '', address = '', image_url = ''} = { ...restaurant };
-                    return <View>
-                        <Text>{name}</Text>
-                        <Text>{address}</Text>
-                    </View>
-                })};
+               
             </ScrollView>
         ) : (
             <View style={styles.mainEmpty}>
