@@ -1,16 +1,16 @@
 import { connect } from 'react-redux';
-// import { doRegister } from '../../reducers/profile/actions'
+import { doSearch } from '../../reducers/core/actions';
 import SearchView from './view';
 
-const stateProp = ({ core }: any) => {
-    const { } = { ...core };
+const stateProp = () => {
     return { }
 }
 
 const dispatchToProps = (dispatch: any) => ({
-    doSearch: async (payload: any) => {
-      // dispatch(doRegister(payload));
+    doSearch: async (payload: any, callback: any) => {
+      dispatch(doRegister(payload));
+      callback();
     }
-  });
+});
 
 export default connect(stateProp, dispatchToProps)(SearchView)

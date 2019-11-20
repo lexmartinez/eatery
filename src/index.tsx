@@ -24,7 +24,7 @@ import { Permissions } from './config/Constant';
 
 const store = createStore(reducers, applyMiddleware(thunkMiddleware));
 const Eatery = () => {
-  useEffect(() => {  checkPermission(Permissions.LOCATION); });
+  useEffect(() => { checkPermission(Permissions.LOCATION); });
   return (
     <Provider store={store}>
       <Router sceneStyle={{backgroundColor: 'white'}}>

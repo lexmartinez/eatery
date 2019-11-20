@@ -25,14 +25,14 @@ const responsive = {...getResponsiveStyle({
     },
     cityButton: {
         height: buttonHeight,
-        paddingLeft: 20,
+        paddingLeft: 30,
         flexGrow: 1
     },
     cityText: {
         fontFamily: Fonts.SEMIBOLD,
         fontSize: Platform.select({ ios: 14, android: 18 }),
         color: Colors.secondary_grey,
-        lineHeight: buttonHeight
+        height: buttonHeight
     },
     searchButton: {
         height: buttonHeight,
