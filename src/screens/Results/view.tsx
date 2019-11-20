@@ -1,8 +1,7 @@
 import React from 'react';
-import { ScrollView, View, Text } from 'react-native';
+import { ScrollView, View, Text, Image } from 'react-native';
 import { Code } from 'react-content-loader/native';
 import { Actions } from 'react-native-router-flux';
-import I18n from '../../config/i18n';
 import styles from './style';
 
 export default class Results extends React.Component<ResultsProps> {
@@ -23,7 +22,15 @@ export default class Results extends React.Component<ResultsProps> {
         const { loading, results } = { ...this.props };
         return !loading ? (
             <ScrollView style={styles.main} showsVerticalScrollIndicator={false}>
-               
+                {(results || []).map((restaurant) => {
+                    const { name = '', address = '', image_url = ''} = { ...restaurant };
+                    return (
+                        <View style={styles.card}>
+                            <Text style={styles.title}>{name}</Text>
+                            <Text style={styles.address}>{address}</Text>
+                        </View>
+                    )
+                })}
             </ScrollView>
         ) : (
             <View style={styles.mainEmpty}>
