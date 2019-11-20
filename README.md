@@ -26,6 +26,9 @@ $ yarn ios|start
 
 ## Preview
 
+| <img src="https://raw.githubusercontent.com/lexmartinez/eatery/master/screenshots/screenshot-1.png" width="300"> | <img src="https://raw.githubusercontent.com/lexmartinez/eatery/master/screenshots/screenshot-2.png" width="300">  | <img src="https://raw.githubusercontent.com/lexmartinez/eatery/master/screenshots/screenshot-3.png" width="300"> |
+| ------------- | ------------- |------------- |
+| <img src="https://raw.githubusercontent.com/lexmartinez/eatery/master/screenshots/screenshot-4.png" width="300"> | <img src="https://raw.githubusercontent.com/lexmartinez/eatery/master/screenshots/screenshot-5.png" width="300">  | <img src="https://raw.githubusercontent.com/lexmartinez/eatery/master/screenshots/screenshot-7.png" width="300"> |
 
 > Disclaimer: About profile data, currently this project uses a random generator data api to mock profile info: `https://randomuser.me/api`, that's why even you register/login user with some data, it shows a different data
 
