@@ -14,9 +14,8 @@ import {
 } from 'react-native-router-flux';
 import thunkMiddleware from 'redux-thunk';
 import reducers from './reducers';
-import Dummie from './components/dummie'
 import { LocationModal, ErrorModal, DemoModal } from './components/Modal';
-import { Profile, Login, Register, Search } from './screens';
+import { Profile, Login, Register, Search, Results } from './screens';
 import TabBarIcon from './components/TabBarIcon';
 import styles from './style';
 import { checkPermission } from './config/Utilities';
@@ -38,7 +37,7 @@ const Eatery = () => {
                     <Stack key={'home'} hideNavBar={true} title={I18n.t('home.home')}
                       icon={(props: any)=>(<TabBarIcon {...props} name={'home'}/>)}>
                       <Scene key={'search'} component={Search} hideNavBar={true}/>
-                      <Scene key={'results'} component={Dummie} hideNavBar={true} title="Results"/>
+                      <Scene key={'results'} component={Results} hideNavBar={true}/>
                     </Stack>
                     {/*<Scene key={'favorites'} component={Dummie} hideNavBar={true} title={I18n.t('favs.favs')}
                       icon={(props: any)=>(<TabBarIcon {...props} name={'heart'}/>)}/>*/}

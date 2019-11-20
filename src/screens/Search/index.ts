@@ -1,5 +1,5 @@
 import { connect } from 'react-redux';
-import { doSearch } from '../../reducers/core/actions';
+import { getResults } from '../../reducers/core/actions';
 import SearchView from './view';
 
 const stateProp = () => {
@@ -8,7 +8,7 @@ const stateProp = () => {
 
 const dispatchToProps = (dispatch: any) => ({
     doSearch: async (payload: any, callback: any) => {
-      dispatch(doRegister(payload));
+      dispatch(getResults(payload));
       callback();
     }
 });

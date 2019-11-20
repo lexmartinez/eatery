@@ -11,7 +11,7 @@ const reducer: any = {
         return { ...state, loading: true };
     },
     [coreKeys.SEARCH_OK]: (state: any, payload: any) => {
-        const { results = [] } = { ...payload };
+        const { restaurants: results = [] } = { ...payload };
         return { ...state, results, loading: false, error: false };
     },
     [coreKeys.SEARCH_FAIL]: (state: any) => {
